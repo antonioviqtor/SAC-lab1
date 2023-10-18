@@ -9,7 +9,7 @@
 * Proprietati: type, title, director, country, releaseYear, rating, listed_in, description
 
 ### GitHub Repo
-[https://github.com/bianca23042/SAC-lab1.git](https://github.com/antonioviqtor/SAC-lab1)https://github.com/antonioviqtor/SAC-lab1
+https://github.com/antonioviqtor/SAC-lab1
 
 
 
