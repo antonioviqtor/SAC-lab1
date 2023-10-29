@@ -14,15 +14,15 @@ public class RecombeeScript {
     public static void main(String[] args) throws ApiException {
         RecombeeClient client = new RecombeeClient("universitatea-politehnica-bucuresti-dev", "Z5SkFBaVmpK7b7jvZIYP7Lzwy7emXVqJBxQ7YkHr5yjgVL1bJ97Im15ZPkVGiTzZ").setRegion(Region.EU_WEST);
 
-        client.send(new ResetDatabase());
-//        addItemsToDatabase(client);
-//        addUsers(client);
-//        addInteractions(client);
-//        getUserRecommendation(client, "Iulia", 3);
-//        getUserRecommendation(client, "Dragos", 3);
-//        getUserRecommendation(client, "Consuela", 3);
-//        getUserRecommendation(client, "Marius", 3);
-//        getUserRecommendation(client, "Pisica", 3);
+        // client.send(new ResetDatabase());
+       // addItemsToDatabase(client);
+       // addUsers(client);
+       // addInteractions(client);
+       getUserRecommendation(client, "Iulia", 3);
+       getUserRecommendation(client, "Dragos", 3);
+       getUserRecommendation(client, "Consuela", 3);
+       getUserRecommendation(client, "Marius", 3);
+       getUserRecommendation(client, "Pisica", 3);
     }
 
     public static void addUsers(RecombeeClient client) {
